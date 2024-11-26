@@ -11,10 +11,25 @@
 
 <body>
 
-    <div id="loading-screen">
-        <div id="loading-bar"></div>
-        <div id="loading-text">0%</div>
+<!-- Tela de Carregamento -->
+<div id="loading-screen" class="fixed inset-0 z-[1000] flex flex-col items-center justify-center overflow-hidden bg-[#151515]">
+    <!-- GIF de Carregamento -->
+    <img src="https://giffiles.alphacoders.com/143/143078.gif" alt="Carregando" class="mb-4" id="loading-image">
+
+    <!-- Texto "Carregando..." -->
+    <div class="mb-4 text-4xl font-bold text-[#8FE20E]" id="loading-text">Carregando...</div>
+
+    <!-- Barra de Progresso -->
+    <div class="h-2 w-64 overflow-hidden rounded-full bg-[#202020]">
+        <div id="loading-bar" class="h-full bg-[#8FE20E] transition-all duration-100 ease-out"></div>
     </div>
+
+    <!-- Porcentagem de Progresso -->
+    <div class="mt-2 text-xl text-white" id="progress-text">0%</div>
+</div>
+
+
+
 
     <div class="container">
         <div class="content">
@@ -73,6 +88,16 @@
                     <h1>Meu site portfolio</h1>
                 </a>
             </div> -->
+                <!-- Conteúdo do Portfólio -->
+                 
+    <div id="portfolio-content" style="display: none;">
+        <span class="blinking">Portfólio em construção</span>
+        <h2 class="mb-4 text-xl font-bold text-[#8FE20E]">Meu Portfólio</h2>
+      
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" id="projects-container">
+            <!-- Os projetos serão gerados aqui via JavaScript -->
+        </div>
+    </div>
             <div class="widget6">
                 <span>Estou escutando...</span>
                 <iframe style="border-radius:12px"
