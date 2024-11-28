@@ -29,23 +29,29 @@ window.onload = function () {
             {
                 id: 1,
                 title: "Site da igreja AD Missão Caçapava",
-                description: "Descrição breve do projeto 1",
+                description: "",
                 imageUrl: "/img/igreja.png",
                 link: "https://igreja-ad-missao-cacapava.vercel.app/"
             },
             {
                 id: 2,
                 title: "Clone spotify",
-                description: "Descrição breve do projeto 2",
+                description: "",
                 imageUrl: "/img/spotify.png",
                 link: "https://spotify-lemon-six.vercel.app/"
             },
             {
                 id: 3,
                 title: "Loja de livros - Angular",
-                description: "Descrição breve do projeto 3",
+                description: "",
                 imageUrl: "/img/livros.png",
                 link: "https://sistemas-livros.vercel.app/livros"
+            },  {
+                id: 4,
+                title: "Pokedex Angular",
+                description: "",
+                imageUrl: "/img/poke.png",
+                link: "https://pokedex-angular-ten-chi.vercel.app/"
             }
         ];
         
