@@ -61,13 +61,14 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://criticalhits.com.br/wp-content/uploads/2021/04/722ab7a8e34bcfc7410909a8d2a19395e7b2383f-910x512.jpg');
+    background: linear-gradient(90deg, rgba(3,36,0,1) 0%, rgba(30,121,9,1) 52%, rgba(0,255,12,1) 100%);
     background-size: cover; /* Ajusta a imagem para cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
     z-index: 1000;
     flex-direction: column;
 }
+
 
 #loading-bar {
     background-color: #8FE20E;
@@ -76,7 +77,7 @@ h2 {
 }
 
 #progress-text {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
 }
 
@@ -290,20 +291,25 @@ h2 {
 }
 
 .skills-icons .fa-database:hover {
-    color: #92cf92;
+    color: #eeff00;
 }
 
-.skills-icons .fa-php:hover {
-    color: #777bb4;
-}
+
 
 .skills-icons .fa-java:hover {
-    color: #007396;
-}
+    background-image: linear-gradient(0deg, rgba(0,115,150,1) 2%, rgba(0,115,150,1) 46%, rgba(255,0,0,1) 48%, rgba(255,0,0,1) 50%);
+
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
 
 .skills-icons .fa-github:hover {
-    color: #181717;
+    color: #000000; /* Cor preta para o ícone */
 }
+
+
+  
 
 
 
